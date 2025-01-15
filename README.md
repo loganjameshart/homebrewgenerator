@@ -1,6 +1,6 @@
 # Homebrew Adventure Generator
 
-This is a lightweight web application built with the Bottle framework. It allows users to upload a CSV file and generate a Word document where each column's heading is used as a section title, and a random non-empty value from the column is added as content.
+This is a lightweight web application built with the Bottle framework. It allows users to upload a CSV file and generate a Word document where each column's heading is used as a section title, and a random non-empty value from the column is added as content. This can create randomly-generated DND adventures with as many or few options as you'd like. 
 
 ## Features
 
