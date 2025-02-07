@@ -21,7 +21,7 @@ if not os.path.exists(UPLOAD_DIR):
 def generate_document(csv_file_path):
     try:
         # Read the CSV file into a DataFrame
-        df = pd.read_csv(csv_file_path, encoding="cp1252")
+        df = pd.read_csv(csv_file_path, encoding="utf8")
         df.fillna('0', inplace=True)
         
         # Create a Word document
